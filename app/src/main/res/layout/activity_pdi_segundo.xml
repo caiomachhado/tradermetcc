@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PDI_Primeiro"
+    tools:context=".PDI_Segundo"
     android:background="#232323">
 
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="351dp"
-        android:layout_height="204dp"
-        android:layout_marginTop="44dp"
+        android:layout_width="353dp"
+        android:layout_height="365dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView8"
@@ -23,35 +23,45 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:buttonTint="#cba65b"
-            android:text="Entre 30 e 49 anos"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="Preservar o patrimônio assumindo
+um risco menor"
+
             android:textColor="#ffffff"
-            android:textSize="20sp" />
+            android:textSize="15sp" />
 
         <RadioButton
             android:id="@+id/radioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:buttonTint="#cba65b"
-            android:text="50 anos ou mais"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="Uma combinação entre preservação
+do patrimônio e sua valorização"
             android:textColor="#ffffff"
-            android:textSize="20sp" />
+            android:textSize="15sp" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:buttonTint="#cba65b"
-            android:text="Abaixo de 30 anos"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="Maximizar o potencial de ganho
+assumindo um risco maior"
             android:textColor="#ffffff"
-            android:textSize="20sp" />
+            android:textSize="15sp" />
     </RadioGroup>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/next01"
+        android:id="@+id/next02"
         android:layout_width="189dp"
         android:layout_height="28dp"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/botao_customizado"
         android:shadowColor="#A8A8A8"
         android:text="Próxima"
@@ -62,13 +72,14 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="353dp"
+        android:layout_height="97dp"
         android:layout_marginTop="32dp"
-        android:text="@string/qual_sua_idade"
+        android:text="Qual a principal finalidade de
+investir em um plano de
+previdência?"
         android:textColor="#cba65b"
-
-        android:textSize="30sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imageView8"
         app:layout_constraintHorizontal_bias="0.0"

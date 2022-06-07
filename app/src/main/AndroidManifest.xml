@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TraderMeTcc">
         <activity
+            android:name=".PDI_Segundo"
+            android:exported="true" />
+        <activity
             android:name=".PDI_Primeiro"
             android:exported="true" />
         <activity
