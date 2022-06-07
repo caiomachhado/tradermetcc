@@ -10,4 +10,6 @@
     <string name="professor_cadastrar_como_professor">É professor? Cadastrar como professor</string>
     <string name="senha">Senha</string>
     <string name="e_mail">E-mail</string>
+    <string name="come_ar">Começar</string>
+    <string name="finalizar_cadastro">Finalizar Cadastro</string>
 </resources>

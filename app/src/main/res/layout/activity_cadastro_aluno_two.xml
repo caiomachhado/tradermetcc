@@ -115,7 +115,7 @@
         android:layout_marginTop="92dp"
         android:background="@drawable/botao_customizado"
         android:shadowColor="#A8A8A8"
-        android:text="@string/continuar_cadastro"
+        android:text="@string/finalizar_cadastro"
         android:textColor="#232323"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
