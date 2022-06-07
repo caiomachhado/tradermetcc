@@ -10,8 +10,8 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="353dp"
-        android:layout_height="365dp"
+        android:layout_width="352dp"
+        android:layout_height="310dp"
         android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintHorizontal_bias="0.0"
