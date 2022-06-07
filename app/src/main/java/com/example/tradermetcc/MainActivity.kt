@@ -10,7 +10,7 @@ import org.w3c.dom.Text
 class MainActivity : AppCompatActivity() {
 
     private var btn_login: Button? = null
-    private var textView_login: TextView? = null
+    private var btn_createAccount: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,11 +23,11 @@ class MainActivity : AppCompatActivity() {
     private fun initialise() {
 
         btn_login = findViewById(R.id.btn_cadastro)
-        textView_login = findViewById(R.id.textView_startNow)
+        btn_createAccount = findViewById(R.id.btn_createAccount)
 
 
 
-        textView_login?.setOnClickListener { startActivity(Intent(this@MainActivity, LoginAluno::class.java)) }
+        btn_createAccount?.setOnClickListener { startActivity(Intent(this@MainActivity, LoginAluno::class.java)) }
         btn_login?.setOnClickListener { startActivity(Intent(this@MainActivity, CadastroAlunoo::class.java)) }
 
     }
