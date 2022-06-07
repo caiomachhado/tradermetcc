@@ -8,7 +8,7 @@
     android:background="#232323">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_endCreateAccount"
+        android:id="@+id/btn_start_PDI"
         android:layout_width="240dp"
         android:layout_height="48dp"
         android:layout_marginTop="12dp"
