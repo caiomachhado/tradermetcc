@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CadastroAlunoo"
+    tools:context=".CadastroAlunoTwo"
     android:background="#232323">
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -27,11 +27,28 @@
         android:layout_height="43dp"
         android:layout_marginTop="24dp"
         android:background="#60605d"
-        android:hint="@string/usu_rio_ou_e_mail"
+        android:hint="Cidade"
+        android:inputType="textPassword"
         android:paddingStart="15dp"
         android:textColor="#ffffff"
         android:textColorHint="#ffffff"
         app:layout_constraintEnd_toEndOf="@+id/appCompatEditText3"
+        app:layout_constraintStart_toStartOf="@+id/appCompatEditText3"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatEditText3" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/appCompatEditText5"
+        android:layout_width="348dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="88dp"
+        android:background="#60605d"
+        android:hint="Estado"
+        android:inputType="textPassword"
+        android:paddingStart="15dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        app:layout_constraintEnd_toEndOf="@+id/appCompatEditText3"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/appCompatEditText3"
         app:layout_constraintTop_toBottomOf="@+id/appCompatEditText3" />
 
@@ -41,7 +58,7 @@
         android:layout_height="43dp"
         android:layout_marginTop="24dp"
         android:background="#60605d"
-        android:hint="@string/usu_rio"
+        android:hint="Bairro"
         android:paddingStart="15dp"
         android:textColor="#ffffff"
         android:textColorHint="#ffffff"
@@ -56,7 +73,7 @@
         android:layout_height="43dp"
         android:layout_marginTop="36dp"
         android:background="#60605d"
-        android:hint="Nome Completo"
+        android:hint="Rua ou Avenida"
         android:paddingStart="15dp"
         android:textColor="#ffffff"
         android:textColorHint="#ffffff"
@@ -71,7 +88,7 @@
         android:layout_height="43dp"
         android:layout_marginTop="24dp"
         android:background="#60605d"
-        android:hint="E-mail"
+        android:hint="Número"
         android:paddingStart="15dp"
         android:textColor="#ffffff"
         android:textColorHint="#ffffff"
@@ -90,4 +107,34 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logooogo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_endCreateAccount"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/botao_customizado"
+        android:shadowColor="#A8A8A8"
+        android:text="@string/continuar_cadastro"
+        android:textColor="#232323"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatEditText4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_createAccountTeacherEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#232323"
+        android:shadowColor="#232323"
+        android:text="@string/professor_cadastrar_como_professor"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_endCreateAccount"
+        app:layout_constraintStart_toStartOf="@+id/btn_endCreateAccount"
+        app:layout_constraintTop_toBottomOf="@+id/btn_endCreateAccount" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

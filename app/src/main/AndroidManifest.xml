@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TraderMeTcc">
         <activity
-            android:name=".CadastroAlunoo"
+            android:name=".CadastroAlunoTwo"
+            android:exported="true" />
+        <activity
+            android:name=".CadastroAluno"
             android:exported="true" />
         <activity
             android:name=".LoginAluno"

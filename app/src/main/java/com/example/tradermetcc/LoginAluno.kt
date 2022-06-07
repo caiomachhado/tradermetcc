@@ -6,6 +6,6 @@ import android.os.Bundle
 class LoginAluno : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_cadastro_aluno)
+        setContentView(R.layout.activity_login_aluno)
     }
 }
