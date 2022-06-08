@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TraderMeTcc">
         <activity
+            android:name=".FeedAluno"
+            android:exported="true" />
+        <activity
             android:name=".InserirAulas"
             android:exported="true" />
         <activity

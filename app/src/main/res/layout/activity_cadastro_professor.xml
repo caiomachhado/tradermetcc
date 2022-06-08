@@ -111,14 +111,15 @@
         android:id="@+id/btn_createAccountStudent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:background="#232323"
         android:shadowColor="#232323"
         android:text="@string/aluno_cadastro_como_aluno"
         android:textColor="#ffffff"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/btn_continueCreateAccount"
-        app:layout_constraintStart_toStartOf="@+id/btn_continueCreateAccount"
-        app:layout_constraintTop_toBottomOf="@+id/btn_continueCreateAccount" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_feedTeacher" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
