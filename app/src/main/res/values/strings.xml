@@ -13,4 +13,6 @@
     <string name="come_ar">Começar</string>
     <string name="finalizar_cadastro">Finalizar Cadastro</string>
     <string name="qual_sua_idade">Qual sua idade?</string>
+    <string name="aluno_cadastro_como_aluno">É aluno? Cadastro como aluno</string>
+    <string name="finalizar_cadastro">Finalizar Cadastro</string>
 </resources>

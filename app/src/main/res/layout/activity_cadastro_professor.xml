@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CadastroAlunoTwo"
+    tools:context=".CadastroProfessor"
     android:background="#232323">
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="@string/cadastro"
+        android:text="Hey teacher!"
         android:textColor="#FFFFFF"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -27,28 +27,12 @@
         android:layout_height="43dp"
         android:layout_marginTop="24dp"
         android:background="#60605d"
-        android:hint="Cidade"
+        android:hint="@string/senha"
         android:inputType="textPassword"
         android:paddingStart="15dp"
         android:textColor="#ffffff"
         android:textColorHint="#ffffff"
         app:layout_constraintEnd_toEndOf="@+id/appCompatEditText3"
-        app:layout_constraintStart_toStartOf="@+id/appCompatEditText3"
-        app:layout_constraintTop_toBottomOf="@+id/appCompatEditText3" />
-
-    <androidx.appcompat.widget.AppCompatEditText
-        android:id="@+id/appCompatEditText5"
-        android:layout_width="348dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="88dp"
-        android:background="#60605d"
-        android:hint="Estado"
-        android:inputType="textPassword"
-        android:paddingStart="15dp"
-        android:textColor="#ffffff"
-        android:textColorHint="#ffffff"
-        app:layout_constraintEnd_toEndOf="@+id/appCompatEditText3"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/appCompatEditText3"
         app:layout_constraintTop_toBottomOf="@+id/appCompatEditText3" />
 
@@ -58,7 +42,7 @@
         android:layout_height="43dp"
         android:layout_marginTop="24dp"
         android:background="#60605d"
-        android:hint="Bairro"
+        android:hint="@string/usu_rio"
         android:paddingStart="15dp"
         android:textColor="#ffffff"
         android:textColorHint="#ffffff"
@@ -73,7 +57,7 @@
         android:layout_height="43dp"
         android:layout_marginTop="36dp"
         android:background="#60605d"
-        android:hint="Rua ou Avenida"
+        android:hint="Nome Completo"
         android:paddingStart="15dp"
         android:textColor="#ffffff"
         android:textColorHint="#ffffff"
@@ -88,7 +72,7 @@
         android:layout_height="43dp"
         android:layout_marginTop="24dp"
         android:background="#60605d"
-        android:hint="Número"
+        android:hint="@string/e_mail"
         android:paddingStart="15dp"
         android:textColor="#ffffff"
         android:textColorHint="#ffffff"
@@ -109,10 +93,10 @@
         app:srcCompat="@drawable/logooogo" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_configureModule"
+        android:id="@+id/btn_feedTeacher"
         android:layout_width="240dp"
         android:layout_height="48dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/botao_customizado"
         android:shadowColor="#A8A8A8"
         android:text="@string/finalizar_cadastro"
@@ -124,17 +108,17 @@
         app:layout_constraintTop_toBottomOf="@+id/appCompatEditText4" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_createAccountTeacherEnd"
+        android:id="@+id/btn_createAccountStudent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:background="#232323"
         android:shadowColor="#232323"
-        android:text="@string/professor_cadastrar_como_professor"
+        android:text="@string/aluno_cadastro_como_aluno"
         android:textColor="#ffffff"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/btn_configureModule"
-        app:layout_constraintStart_toStartOf="@+id/btn_configureModule"
-        app:layout_constraintTop_toBottomOf="@+id/btn_configureModule" />
+        app:layout_constraintEnd_toEndOf="@+id/btn_continueCreateAccount"
+        app:layout_constraintStart_toStartOf="@+id/btn_continueCreateAccount"
+        app:layout_constraintTop_toBottomOf="@+id/btn_continueCreateAccount" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
