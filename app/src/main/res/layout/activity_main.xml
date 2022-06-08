@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#232323">
+    android:background="#232323"
+    android:theme="@style/Theme.Design.NoActionBar">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/imageView2"
@@ -32,7 +33,7 @@
         android:id="@+id/imageView6"
         android:layout_width="304dp"
         android:layout_height="106dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,6 +55,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_cadastro"
         app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_enterTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#232323"
+        android:shadowColor="#232323"
+        android:text="Entre Como professor"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cadastro"
+        app:layout_constraintVertical_bias="0.774" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_cadastro"
