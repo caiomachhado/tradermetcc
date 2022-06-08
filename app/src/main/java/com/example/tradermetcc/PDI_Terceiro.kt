@@ -19,6 +19,8 @@ class PDI_Terceiro : AppCompatActivity() {
 
     private fun initialise() {
 
+        next03 = findViewById(R.id.next03)
+
         next03?.setOnClickListener { startActivity(Intent(this@PDI_Terceiro, PDI_Quarto::class.java)) }
 
     }

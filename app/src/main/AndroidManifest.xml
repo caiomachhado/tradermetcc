@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TraderMeTcc">
         <activity
+            android:name=".PDI_Oitava"
+            android:exported="true" />
+        <activity
+            android:name=".PDI_Setimo"
+            android:exported="true" />
+        <activity
+            android:name=".PDI_Sexto"
+            android:exported="true" />
+        <activity
+            android:name=".PDI_Quinto"
+            android:exported="true" />
+        <activity
             android:name=".PDI_Quarto"
             android:exported="true" />
         <activity
