@@ -5,22 +5,21 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class PDI_Segundo : AppCompatActivity() {
+class PDI_Terceiro : AppCompatActivity() {
 
-    private var next02 : Button? = null
+    private var next03 : Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pdi_segundo)
+        setContentView(R.layout.activity_pdi_terceiro)
 
         initialise()
+
     }
 
     private fun initialise() {
 
-        next02 = findViewById(R.id.next02)
-
-        next02?.setOnClickListener { startActivity(Intent(this@PDI_Segundo, PDI_Terceiro::class.java)) }
+        next03?.setOnClickListener { startActivity(Intent(this@PDI_Terceiro, PDI_Quarto::class.java)) }
 
     }
 
