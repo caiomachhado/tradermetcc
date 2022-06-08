@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TraderMeTcc">
         <activity
+            android:name=".PDI_Ultimo"
+            android:exported="true" />
+        <activity
             android:name=".PDI_Decimo"
             android:exported="true" />
         <activity
