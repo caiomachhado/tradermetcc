@@ -5,23 +5,21 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class FeedProfessor : AppCompatActivity() {
+class AdicionarModulo : AppCompatActivity() {
 
-    private var btn_create : Button? = null
+    private var btn_insertClass : Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_feed_professor)
+        setContentView(R.layout.activity_adicionar_modulo)
 
         initialise()
 
     }
 
     private fun initialise() {
+        btn_insertClass = findViewById(R.id.btn_insertClass)
 
-        btn_create = findViewById(R.id.btn_create)
-
-        btn_create?.setOnClickListener { startActivity(Intent(this@FeedProfessor, AdicionarModulo::class.java)) }
-
+        btn_insertClass?.setOnClickListener { startActivity(Intent(this@AdicionarModulo, InserirAulas::class.java)) }
     }
 }

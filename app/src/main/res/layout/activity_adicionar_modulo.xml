@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdicionarModulo"
+    android:background="#232323"
+    >
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/appCompatEditText"
+        android:layout_width="348dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:background="#60605d"
+        android:hint="Nome do Curso"
+        android:paddingStart="15dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/appCompatEditText7"
+        android:layout_width="348dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:background="#60605d"
+        android:hint="Descrição do Curso"
+        android:paddingStart="15dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        app:layout_constraintEnd_toEndOf="@+id/appCompatEditText6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/appCompatEditText6"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatEditText6" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/appCompatEditText8"
+        android:layout_width="348dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:background="#60605d"
+        android:hint="Carga Horária"
+        android:paddingStart="15dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        app:layout_constraintEnd_toEndOf="@+id/appCompatEditText7"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/appCompatEditText7"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatEditText7" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_insertClass"
+        android:layout_width="241dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/botao_customizado"
+        android:shadowColor="#A8A8A8"
+        android:text="Inserir Aulas"
+        android:textColor="#232323"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/appCompatEditText9"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/appCompatEditText9"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatEditText9" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textView_startNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="Adicionar Módulo"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/appCompatEditText9"
+        android:layout_width="348dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:background="#60605d"
+        android:hint="Instrutor"
+        android:paddingStart="15dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        app:layout_constraintEnd_toEndOf="@+id/appCompatEditText8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/appCompatEditText8"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatEditText8" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/appCompatEditText6"
+        android:layout_width="348dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        android:background="#60605d"
+        android:hint="Categoria do Curso"
+        android:paddingStart="15dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        app:layout_constraintEnd_toEndOf="@+id/appCompatEditText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/appCompatEditText"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatEditText" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logooogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
