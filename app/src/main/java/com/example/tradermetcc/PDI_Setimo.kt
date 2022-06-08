@@ -12,6 +12,9 @@ class PDI_Setimo : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pdi_setimo)
+
+        initialise()
+
     }
 
     private fun initialise() {
