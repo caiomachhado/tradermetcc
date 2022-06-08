@@ -27,7 +27,7 @@ class InserirAulas : AppCompatActivity() {
 
 
     }
-    
+
     private fun abreGaleria(){
 
         val intent = Intent(Intent.ACTION_PICK, MediaStore.Video.Media.EXTERNAL_CONTENT_URI)

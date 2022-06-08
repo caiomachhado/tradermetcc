@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/dawdwa666" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/next10"
+        android:id="@+id/next11"
         android:layout_width="189dp"
         android:layout_height="28dp"
         android:layout_marginTop="12dp"
