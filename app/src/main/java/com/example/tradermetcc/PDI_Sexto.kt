@@ -12,6 +12,9 @@ class PDI_Sexto : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pdi_sexto)
+
+        initialise()
+
     }
 
     private fun initialise() {
